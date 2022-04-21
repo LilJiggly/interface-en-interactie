@@ -1,0 +1,466 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+:root {
+  --grey: grey;
+  --focus: red;
+}
+
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1.4fr 0.6fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  height: 100%;
+  width: 100%;
+}
+
+.pokemonContainer { 
+  grid-area: 1 / 4 / 3 / 9;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+   background:repeating-linear-gradient(
+  45deg,
+  #FFAAF2,
+  #FFAAF2 30px,
+  #FD87EB 30px,
+  #FD87EB 60px
+  );
+  
+  animation: gradient 30s infinite linear;
+  background-size: 400% 400%;
+ 
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 10%;
+  }
+  100% {
+      background-position: 100%;
+  }
+}
+
+/* Big Eeveelution */
+
+.pokemonContainer img {
+  width: 40%;
+  transition: 1s;
+}
+
+.pokemonContainer img:hover {
+  transform: scale(120%);
+  transition: 1s;
+}
+
+.InfoContainer { 
+  grid-area: 1 / 1 / 2 / 4; 
+  background-color: rgb(51 51 51);
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 40vh;
+  color:white;
+}
+
+.InfoContainer section {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  
+}
+
+.InfoContainer section h1 {
+  color: #FD87EB;
+  font-size: 2em;
+  margin: 0 0 0.5em 0;
+}
+
+.InfoContainer section ul {
+  margin:0;
+  padding: 0;
+}
+
+.InfoContainer section ul li {
+  list-style: none;
+  padding-bottom: 0.5em;
+  position: relative;
+}
+
+
+p {
+  position: relative;
+  margin: 0;
+  color: white;
+}
+
+
+
+
+
+.menuInfo {  
+  position: relative;
+  display: flex;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Evolution Abilities Breeding"
+    "deepDive deepDive deepDive"
+    "deepDive deepDive deepDive";
+  grid-area: 2 / 1 / 3 / 4;
+  height: 40vh;
+  background-color: var(--grey);
+}
+
+div.deepDive {  
+  /* display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ".";
+  grid-area: deepDive; */
+
+  width: 100%;
+  position: relative;
+  top:0px;
+
+}
+
+.deepDive.Abilities { 
+  position: relative;
+  left:1em;
+  grid-area: Abilities; }
+
+.deepDive.Breeding { 
+  
+  grid-area: Breeding; 
+width: 33%;}
+
+.deepDive.Evolution { 
+  
+  grid-area: Evolution; }
+
+.deepDive.section.Evolution {
+  display: flex;
+  flex-direction: column;
+}
+
+.deepDive section {
+  position:relative;
+  width: 100%;
+}
+
+.deepDive article {
+  position: relative;
+  width: 80%;
+  height: calc(100% - 5em);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 1em auto;
+}
+
+
+
+
+
+button {
+  width: 100%;
+  position: relative;
+  text-decoration: none;
+  border: none;
+  height: 3em;
+  padding: 0em;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: var(--grey);
+  cursor: pointer;
+  color:white;
+}
+
+button:active {
+  background-color: var(--grey);
+}
+
+button:focus {
+  border-color: var(--focus);
+}
+
+
+.menuEevees { grid-area: 3 / 1 / 4 / 9; 
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+  height: 20vh;
+}
+
+.menuEevees ul{
+  display: flex;
+
+  justify-content: center;
+  /* display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0; */
+  
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  
+}
+
+
+.menuEevees ul{
+  height: 100%;
+}
+
+.menuEevees ul li {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  position: relative;
+  color: white;
+  font-size: 1.5em;
+  list-style: none;
+  font-weight: 900;
+  width: 12.5vw;
+}
+
+
+.menuEevees ul li:focus {
+  border-color: red;
+}
+
+
+.menuEevees ul li:hover{
+  background-color: rgb(34, 34, 34);
+  cursor: pointer;
+}
+
+.menuEevees ul li img{
+  bottom:15%;
+  padding: 0%;
+  position: absolute;
+  /* transform: scale(100%);
+  transition: 1s; */
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.deepDive section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.deepDive section{
+  
+  background-color: #595959;
+  position: relative;
+  display: flex;
+}
+
+
+
+div.Abilities.Breeding.Evolution {
+  height: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+/* .menuEevees ul li img:hover{
+  transform: scale(110%);
+  cursor: pointer;
+} */
+
+
+
+/* Menu onder in met de eeveelutions
+  Animaties */
+
+/* Eeveelution #1 */
+
+@keyframes eevee{
+  0%{
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(-360deg);
+  }
+}
+
+.menuEevees ul li:nth-of-type(1){
+  background-color: #78420E;
+  height: 100%;
+}
+
+.menuEevees ul li:nth-of-type(1) img {
+  height: 40%;
+}
+
+.menuEevees ul li:nth-of-type(1):hover{
+ 
+  background-color: #78420E;
+
+  background-image:repeating-linear-gradient(45deg, #955a00 25%, transparent 25%, transparent 75%, #955a00 75%, #955a00), repeating-linear-gradient(45deg, #955a00 25%, #78420E 25%, #78420E 75%, #955a00 75%, #955a00);
+  background-position: 0 0, 19px 19px;
+  background-size: 38px 38px;
+}
+
+
+
+/* Eeveelution #2 */
+
+.menuEevees ul li:nth-of-type(2){
+  background-color: #87ABFF;
+  height: 100%;
+  opacity: 1;
+  transition: 1s;
+}
+
+.menuEevees ul li:nth-of-type(2) img {
+  height: 55%;
+}
+
+.menuEevees ul li:nth-of-type(2):hover{
+  background-color: #001bdb;
+  opacity: 1;
+  background-image:repeating-radial-gradient( 
+  circle at 0 0, transparent 0, #001bdb 25px ), 
+  repeating-linear-gradient( #59c2e355, #59c2e3 );
+
+}
+
+/* Eeveelution #3 */
+
+.menuEevees ul li:nth-of-type(3){
+  background-color: #FED26C;
+  height: 100%;
+}
+
+.menuEevees ul li:nth-of-type(3) img {
+  height: 55%;
+}
+
+/* .menuEevees ul li:nth-of-type(3) img:hover{
+  transform: rotateY(360deg);
+} */
+
+.menuEevees ul li:hover:nth-of-type(3){
+  background-color: #dbc900;
+  opacity: 1;
+  background-image:  linear-gradient(135deg, #eeff00 25%, transparent 25%), linear-gradient(225deg, #eeff00 25%, transparent 25%), linear-gradient(45deg, #eeff00 25%, transparent 25%), linear-gradient(315deg, #eeff00 25%, #dbc900 25%);
+  background-position:  15px 0, 15px 0, 0 0, 0 0;
+  background-size: 30px 30px;
+  background-repeat: repeat;
+}
+
+/* Eeveelution #4 Flareon */
+
+.menuEevees ul li:nth-of-type(4){
+  background-color: #FD7912;
+  height: 100%;
+  transition:1s;
+  
+}
+
+.menuEevees ul li:nth-of-type(4) img {
+  height: 75%;
+}
+
+.menuEevees ul li:hover:nth-of-type(4) {
+  background-color: #FD7912;
+  opacity: 1;
+  background-image: linear-gradient(45deg, #d82323 50%, #FD7912 50%);
+  background-size: 28px 28px;
+}
+
+/* Eeveelution #5 */
+
+
+.menuEevees ul li:nth-of-type(5){
+  background-color: #F7C7FC;
+  height: 100%;
+  transition: 1s;
+  opacity: 1;
+}
+
+.menuEevees ul li:nth-of-type(5) img {
+  height: 60%;
+}
+
+.menuEevees ul li:hover:nth-of-type(5){
+  background-image: 
+  radial-gradient(circle at center center, #dd7ff5, #e5e5f7), 
+  repeating-radial-gradient(circle at center center, #e57ef2, #e57ef2, 10px, transparent 20px, transparent 20px);
+  background-blend-mode: multiply;
+}
+
+/* Eeveelution #6 */
+
+.menuEevees ul li:nth-of-type(6){
+  background-color: #595959;
+  height: 100%;
+}
+
+.menuEevees ul li:nth-of-type(6) img {
+  height: 60%;
+}
+
+.menuEevees ul li:hover:nth-of-type(6){
+  background-image: 
+  radial-gradient(circle at center center, black, #e5e5f7), 
+  repeating-radial-gradient(circle at center center, black, black, 10px, transparent 20px, transparent 10px);
+  background-blend-mode: multiply;
+}
+
+/* Eeveelution #7 */
+
+.menuEevees ul li:nth-of-type(7){
+  background-color: #F7E0B5;
+  height: 100%;
+}
+
+.menuEevees ul li:nth-of-type(7) img {
+  height: 60%;
+}
+
+.menuEevees ul li:hover:nth-of-type(7){
+  background-color: #F7E0B5;
+  background-image: linear-gradient(to right, #a9c798, #a9c798 4.5px, #F7E0B5 4.5px, #F7E0B5 );
+  background-size: 10px 150%;
+}
+
+/* Eeveelution #7 Glaceon */
+
+.menuEevees ul li:nth-of-type(8){
+  background-color: #BAEAFF;
+  height: 100%;
+}
+
+.menuEevees ul li:nth-of-type(8) img {
+  height: 65%;
+}
+
+.menuEevees ul li:hover:nth-of-type(8){
+background-color: #BAEAFF;
+opacity: 1;
+background: radial-gradient(circle, transparent 20%, #BAEAFF 20%, #BAEAFF 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #BAEAFF 20%, #BAEAFF 80%, transparent 80%, transparent) 15px 15px, linear-gradient(#ffffff 1.2000000000000002px, transparent 1.2000000000000002px) 0 -0.6000000000000001px, linear-gradient(90deg, #ffffff 1.2000000000000002px, #BAEAFF 1.2000000000000002px) -0.6000000000000001px 0;
+background-size: 30px 30px, 30px 30px, 15px 15px, 15px 15px;
+}
