@@ -13,10 +13,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 ### Ontwerper:
-Sanne 't Hooft (vervangen door jouw naam)
+Sam Lansdaal
 
 #### Je startniveau:
-Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
+Rood
 
 
 
@@ -25,7 +25,8 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 # Je plan
 
 <details open>
-  <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
+  <summary>
+  <img src=""> </summary>
 
   ### De eerste versie/schets:
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
