@@ -26,6 +26,7 @@ Rood
 
 <details open>
   <summary>
+
   <img src=""> </summary>
 
   ### De eerste versie/schets:
@@ -34,9 +35,9 @@ Rood
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Display: Flex
+  - Display: Grid
+  - 
   - ...
  
 </details>
