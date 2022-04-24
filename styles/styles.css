@@ -8,6 +8,7 @@ body, html {
   --focus: red;
 }
 
+
 .container {  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1.4fr 0.6fr;
@@ -31,14 +32,14 @@ body, html {
   animation: default 30s infinite linear;
   background-size:50% auto, 400% 400%;
   background-repeat: no-repeat, repeat;
-  background-image: url(/gif/Default.gif), 
+  background-image: url(./gif/Default.gif), 
   linear-gradient(180deg, rgba(227,86,86,1) 50%, rgba(246,246,246,1) 50%);
   width: 100%;
 }
 
 .pokemonContainer[data-theevee="eevee"] {
   background-image:
-    url(/gif/133-Eevee.gif),
+    url(./gif/133-Eevee.gif),
     repeating-conic-gradient(#78420E 0% 25%, #955a00 0% 50%);
   opacity: 1;
   background-position:
@@ -56,7 +57,7 @@ body, html {
 
 .pokemonContainer[data-theevee="vaporeon"] {
   background-image:
-    url(/gif/134-Vaporeon.gif),
+    url(./gif/134-Vaporeon.gif),
     repeating-radial-gradient( 
     circle at 0 0, transparent 0, #001bdb 50px ), 
     repeating-linear-gradient( #59c2e355, #59c2e3 );
@@ -75,7 +76,7 @@ body, html {
 
 .pokemonContainer[data-theevee="jolteon"] {
   background-image: 
-    url(/gif/135-Jolteon.gif),
+    url(./gif/135-Jolteon.gif),
     linear-gradient(yellow, gold);
   background-position: 
     center center,
@@ -91,7 +92,7 @@ body, html {
 
 .pokemonContainer[data-theevee="flareon"] {
   background-image: 
-    url(/gif/136-Flareon.gif),
+    url(./gif/136-Flareon.gif),
     linear-gradient(red, orange);
   background-position: 
     center center,
@@ -107,7 +108,7 @@ body, html {
 
 .pokemonContainer[data-theevee="espeon"] {
   background-image: 
-    url(/gif/196-Espeon.gif),
+    url(./gif/196-Espeon.gif),
     linear-gradient(pink, purple);
   background-position: 
     center center,
@@ -123,7 +124,7 @@ body, html {
 
 .pokemonContainer[data-theevee="umbreon"] {
   background-image: 
-    url(/gif/197-Umbreon.gif),
+    url(./gif/197-Umbreon.gif),
     linear-gradient(black, grey);
   background-position: 
     center center,
@@ -139,7 +140,7 @@ body, html {
 
 .pokemonContainer[data-theevee="leafeon"] {
   background-image: 
-    url(/gif/470-Leafeon.gif),
+    url(./gif/470-Leafeon.gif),
     linear-gradient(green, brown);
   background-position: 
     center center,
@@ -155,7 +156,7 @@ body, html {
 
 .pokemonContainer[data-theevee="glaceon"] {
   background-image: 
-    url(/gif/471-Glaceon.gif),
+    url(./gif/471-Glaceon.gif),
     linear-gradient(rgb(151, 224, 255), rgb(55, 110, 250));
   background-position: 
     center center,
@@ -171,7 +172,7 @@ body, html {
 
 .pokemonContainer[data-theevee="sylveon"] {
   background-image: 
-    url(/gif/700-Sylveon.gif),
+    url(./gif/700-Sylveon.gif),
     linear-gradient(pink, hotpink);
   background-position: 
     center center,
@@ -218,8 +219,10 @@ body, html {
 
 .pokemonImage {
   transition: 1s;
-  content: url();
+  content: url(./gif/Default.gif);
   width: 50%;
+  box-sizing: content-box;
+width: 50%;
 }
 
 .pokemonContainer img:hover{
@@ -260,6 +263,10 @@ body, html {
   list-style: none;
   padding-bottom: 0.5em;
   position: relative;
+  
+}
+
+#naam {
   display: inline-block;
 }
 
@@ -351,7 +358,7 @@ ol li {
 
 
 
-button {
+.deepDive button {
   width: 100%;
   position: relative;
   text-decoration: none;
@@ -363,19 +370,35 @@ button {
   box-shadow: inset 0 0 0 0 red;
 }
 
-button:hover {
+.deepDive button:hover {
   background-color: var(--grey);
   cursor: pointer;
   color:white;
   box-shadow: inset 0 -5em 0 0 red;
 }
 
-button:active {
+.deepDive button:active {
   background-color: var(--grey);
 }
 
-button:focus {
+.deepDive button:focus {
   border-color: var(--focus);
+}
+
+#cry {
+  width: 50%;
+  font-size: 1em;
+  position: relative;
+  text-decoration: none;
+  border: none;
+  transition: 1s;
+  box-shadow: inset 0 0 0 0 blue;
+}
+
+#cry:hover {
+  position: relative;
+  width: 50%;
+  box-shadow: inset 0 1em 0 0 blue;
 }
 
 
