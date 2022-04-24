@@ -49,7 +49,7 @@ body, html {
 /* Eevee Animation and Keyframes */
 .pokemonContainer[data-theevee="eevee"] {
   background-image:
-    url(/images/gif/133-Eevee.gif),
+    url(../images/gif/133-Eevee.gif),
     repeating-conic-gradient(#78420E 0% 25%, #955a00 0% 50%);
   opacity: 1;
   background-position:
@@ -81,7 +81,7 @@ body, html {
 /* Vaporeon Animation and Keyframes */
 .pokemonContainer[data-theevee="vaporeon"] {
   background-image:
-    url(/images/gif/134-Vaporeon.gif),
+    url(../images/gif/134-Vaporeon.gif),
     repeating-radial-gradient(
 			closest-side circle,
       #59c2e3
@@ -117,8 +117,8 @@ body, html {
 .pokemonContainer[data-theevee="jolteon"] {
     opacity: 1;
     background-image:  
-    url(/images/gif/135-Jolteon.gif),
-    url(/images/lightning.svg),
+    url(../images/gif/135-Jolteon.gif),
+    url(../images/lightning.svg),
     linear-gradient( yellow, orange);
     background-position:
     bottom,  
@@ -147,7 +147,7 @@ body, html {
 /* Flareon Animation and Keyframes */
 .pokemonContainer[data-theevee="flareon"] {
 background-image: 
-  url(/images/gif/136-Flareon.gif),
+  url(../images/gif/136-Flareon.gif),
   linear-gradient(0deg, rgba(255,0,0,1) 00%, rgba(255,0,0,1) 33%, rgba(255,151,0,1) 33%, rgba(255,151,0,1) 66%, rgba(255,255,116,1) 66%);
 background-position: 
   bottom,
@@ -161,7 +161,7 @@ background-repeat:
 width: 100%;
 height: 100%;
 animation: fire 25s linear infinite;
-content:url(/cries/eevee.mp3);
+content:url(../cries/eevee.mp3);
 }
 
 @keyframes fire {
@@ -180,7 +180,7 @@ content:url(/cries/eevee.mp3);
 /* Espeon Animation and Keyframes */
 .pokemonContainer[data-theevee="espeon"] {
   background-image:
-  url(/images/gif/196-Espeon.gif),
+  url(../images/gif/196-Espeon.gif),
   repeating-radial-gradient(
     closest-side circle,
     #dd7ff5
@@ -210,7 +210,7 @@ animation: wavesPhysic 15s linear infinite;
 /* Umbreon Animation and Keyframes */
 .pokemonContainer[data-theevee="umbreon"] {
   background-image:
-  url(/images/gif/197-Umbreon.gif),
+  url(../images/gif/197-Umbreon.gif),
   repeating-radial-gradient(
     closest-side circle,
     #1d1d1d
@@ -240,7 +240,7 @@ animation: wavesDark 15s linear infinite;
 /* Leafeon Animation and Keyframes */
 .pokemonContainer[data-theevee="leafeon"] { 
   background-image: 
-  url(/images/gif/470-Leafeon.gif),
+  url(../images/gif/470-Leafeon.gif),
   repeating-linear-gradient(315deg,#f7e0b5, #f7e0b5 30px, #a9c798 30px, #a9c798  60px);
   background-position: 
     bottom,
@@ -270,8 +270,8 @@ animation: wavesDark 15s linear infinite;
 
 .pokemonContainer[data-theevee="glaceon"] {
   background-image:  
-  url(/images/gif/471-Glaceon.gif),
-  url(/images/snow.svg),
+  url(../images/gif/471-Glaceon.gif),
+  url(../images/snow.svg),
   linear-gradient(rgb(151, 224, 255), rgb(55, 110, 250));
   background-position:
   bottom,  
@@ -299,7 +299,7 @@ animation: wavesDark 15s linear infinite;
 
 .pokemonContainer[data-theevee="sylveon"] {
   background-image: 
-  url(/images/gif/700-Sylveon.gif),
+  url(../images/gif/700-Sylveon.gif),
   repeating-linear-gradient(45deg,#FFAAF2, #FFAAF2 30px, #FD87EB 30px, #FD87EB 60px);
   background-position: 
     bottom,
@@ -337,7 +337,7 @@ animation: wavesDark 15s linear infinite;
 
 .pokemonImage {
   transition: 1s;
-  content: url(./gif/Default.gif);
+  content: url(../gif/Default.gif);
   width: 50%;
   box-sizing: content-box;
 width: 50%;
@@ -886,4 +886,8 @@ link {
 
 .hidden {
   visibility: visible;
+}
+
+#moreInfo {
+  font-size: 0.7em;
 }

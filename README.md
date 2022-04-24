@@ -59,12 +59,13 @@ Rood
 
   ### Bevinding 1:
   Zoals ik eerder al zei bij de ambities zou ik graag in een vlakverdeling van 3 willen werken. 
-  
+
   <img src="proces/Layout schetsen.png">
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
 
+  In het begin heb ik veel geprobeer met Grid, maar ik kwam er steeds niet helemaal lekker uit. Uiteindelijk vond ik de volgende website
 
 
   ### Bevinding 2:
@@ -172,7 +173,7 @@ Rood
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. Info over de Pokémons https://bulbapedia.bulbagarden.net/wiki/ & https://pokemondb.net/pokedex/
+1. Info over de Pokémons https://bulbapedia.bulbagarden.net/wiki/ & https://pokemondb.net/pokedex/ en https://pokemon.fandom.com/wiki/Eevee#Generation_VIII
 2. Types image https://twitter.com/RicoPicoProject/status/1261695478120321024/photo/1
 3. Geluiden https://play.pokemonshowdown.com/audio/cries/
 4. Backgrounds https://www.magicpattern.design/tools/css-backgrounds
@@ -183,6 +184,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 9. Gradients https://cssgradient.io/
 10. Sneeuwvlok https://www.onlinewebfonts.com/icon/540450
 11. Bliksem https://www.svgrepo.com/svg/20303/lightning
+12. Pixel pokemon http://pixelartmaker.com/art/8f8dd93f7aae3e7
 
 
 
