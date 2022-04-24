@@ -59,6 +59,7 @@ Rood
 
   ### Bevinding 1:
   Zoals ik eerder al zei bij de ambities zou ik graag in een vlakverdeling van 3 willen werken. 
+  
   <img src="proces/Layout schetsen.png">
 
   #### oplossing:
