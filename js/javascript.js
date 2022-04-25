@@ -251,15 +251,15 @@ const names = [
 ]
 
   const evolution = [
-      "It evolves into one of eight different Pokémon through various methods:",
-      "Water stone",
-      "Thunder stone",
-      "Fire stone",
+      "Eevee can evolve into one of eight different forms with different types.",
+      "Vaporeon is one of Eevee's evolutions that is caused by being exposed to a Water Stone.",
+      "Jolteon is one of the evolutions of Eevee that is caused by being exposed to a Thunderstone.",
+      "Flareon is one of the evolutions of Eevee that is caused by being exposed to a Fire Stone.",
       "Max-friendship day",
       "Max-friendship night",
       "Mossy rock",
       "Icy rock",
-      "How to evolve: Eevee into Sylveon. Once your Eevee has at least two Affection hearts and knows a Fairy-type move, level it up. You can do this through random battles, fights with other trainers, candies and so on. Once your Eevee levels up, assuming the conditions above have been met, it should immediately evolve into Sylveon."
+      "Eevee evolves into Sylveon when leveled up knowing a Fairy‐type move and gaining at least two Affection hearts in Pokémon‐Amie or Pokémon Refresh. Starting from Generation VIII, it evolves upon level up with high friendship with and a Fairy‐type move."
   ]
 
   const cries = [
@@ -280,17 +280,19 @@ const names = [
 
 
 
-//switch tabs
-var infoTab = document.getElementById("infoButton");
-infoTab.addEventListener("click", switchTabs);
+// //switch tabs
+// var infoTab = document.getElementById("infoButton");
+// infoTab.addEventListener("click", switchTabs);
 
-var textInTab = document.getElementById("article")
-var nextTab = document.querySelector("ol.evolution")
+// var textInTab = document.getElementById("article")
+// var nextTab = document.querySelector("ol.evolution")
+// // var activeInfoTab1 = document.getElementById("infoButton")
 
-function switchTabs(){
-    textInTab.classList.toggle('hide')
-    nextTab.classList.toggle('hidden')
-}
+// function switchTabs(){
+//     textInTab.classList.toggle('hide')
+//     nextTab.classList.toggle('hidden')
+//     activeInfoTab1.classList.toggle('active')
+// }
 
 var infoTab = document.getElementById("evolutionButton");
 infoTab.addEventListener("click", switchTabs);
@@ -298,7 +300,10 @@ infoTab.addEventListener("click", switchTabs);
 var textInTab = document.getElementById("article")
 var nextTab = document.querySelector("ol.evolution")
 
+var activeTab2 = document.getElementById("infoButton")
+
 function switchTabs(){
     textInTab.classList.toggle('hide')
     nextTab.classList.toggle('hidden')
+    activeTab2.classList.toggle('active')
 }

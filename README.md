@@ -138,8 +138,9 @@ Rood
 
 </details>
 
-
-
+Waarom heb ik voor de pixel images van pkmns gekozen (de sprites van de oude games)
+Gebruik gemaakt van progressive disclosure
+Eevee menu bovenin in verband met de flow
 
 ## Reflectie
 
@@ -175,8 +176,8 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. Info over de Pokémons https://bulbapedia.bulbagarden.net/wiki/ & https://pokemondb.net/pokedex/ en https://pokemon.fandom.com/wiki/Eevee#Generation_VIII
 2. Types image https://twitter.com/RicoPicoProject/status/1261695478120321024/photo/1
-3. Geluiden https://play.pokemonshowdown.com/audio/cries/
-4. Backgrounds https://www.magicpattern.design/tools/css-backgrounds
+3. 
+4. Achtergrond patronen https://www.magicpattern.design/tools/css-backgrounds
 5. Startcode voor het grid https://grid.layoutit.com/
 6. 3D Pokémon sprites https://projectpokemon.org/home/docs/spriteindex_148/3d-models-generation-1-pok%C3%A9mon-r90/
 7. Leaves Patterb https://patternpad.com/editor.html
@@ -185,6 +186,10 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 10. Sneeuwvlok https://www.onlinewebfonts.com/icon/540450
 11. Bliksem https://www.svgrepo.com/svg/20303/lightning
 12. Pixel pokemon http://pixelartmaker.com/art/8f8dd93f7aae3e7
+13. Pokemon geluiden (Cries) https://play.pokemonshowdown.com/audio/cries/
+14. Achtergrond patronen https://www.magicpattern.design/tools/css-backgrounds
+15. Cirkel animatie https://codepen.io/shooft/pen/MWOjqJM
+16. Favicon generator en Eevee image https://www.favicon-generator.org/ & https://iconscout.com/icon/eevee-eievui-pokemon-cartoon-game-video-pokemongo 
 
 
 
