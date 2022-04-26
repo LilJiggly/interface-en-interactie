@@ -67,6 +67,8 @@ Rood
 
   In het begin heb ik veel geprobeer met Grid, maar ik kwam er steeds niet helemaal lekker uit. Uiteindelijk vond ik de volgende website: https://grid.layoutit.com/.
   Hier heb ik mijn layout aangemaakt en de html en css gekopieerd.
+  
+  <img src="proces/Grid.png">
 
 
   ### Bevinding 2:
