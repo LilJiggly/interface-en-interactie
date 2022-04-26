@@ -83,9 +83,10 @@ Rood
   ### Bevinding 3:
   In het begin twijfelde ik nog welke sprites ik wilde gebruiken. <br>
   <img src="PNG/Eevee 133.png" width="25%">
-  <img src="images/gif/133-Eevee.gif" width="25%">
+  <img src="images/gif/133-Eevee.gif" width="25%"> <br>
+  Ik heb er volgens voor gekozen om de rechter sprite te gebruiken, omdat deze een gif bestand is.
+  Vervolgens heb ik voor alle Eeveelutions een gif gedownload op de volgende website: https://projectpokemon.org/home/docs/spriteindex_148/3d-models-generation-1-pok%C3%A9mon-r90/.
   
-
 </details>
 
 
