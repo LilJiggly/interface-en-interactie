@@ -84,8 +84,9 @@ Rood
 
   ### Bevinding 3:
   In het begin twijfelde ik nog welke sprites ik wilde gebruiken
-  <img src="images/gif/133-Eevee.gif">
-  <img src="png/Eevee 133.png">
+  <img src="png/Eevee 133.png" width="25%">
+  <img src="images/gif/133-Eevee.gif" width="25%">
+  
 
 </details>
 
