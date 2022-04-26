@@ -102,8 +102,8 @@ Rood
   Toen ik gekozen had om de Eevee sprites te kiezen die ik nu gebruikt hebt was het tijd om deze in Photoshop en Illustrator te bewerken.
   In Illustrator heb ik alle Eeveelutions op een rijtje gezet om de grote te bepalen van de sprites en van het kader eromheen.
   
-  <img src="images/height-chart.png" width="25%">
-  <img src="images/sprites-row.png" width="25%">
+  <img src="References/height-chart.png" width="25%">
+  <img src="References/sprites-row.png" width="25%">
   
 </details>
 
