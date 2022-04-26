@@ -60,7 +60,7 @@ Rood
   ### Bevinding 1:
   Zoals ik eerder al zei bij de ambities zou ik graag in een vlakverdeling van 3 willen werken. 
 
-  <img src="../proces/Layout schetsen.png">
+  <img src="proces/Layout schetsen.png">
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
@@ -68,7 +68,7 @@ Rood
   In het begin heb ik veel geprobeer met Grid, maar ik kwam er steeds niet helemaal lekker uit. Uiteindelijk vond ik de volgende website: https://grid.layoutit.com/.
   Hier heb ik mijn layout aangemaakt en de html en css gekopieerd.
   
-  <img src="../proces/Grid.png">
+  <img src="proces/Grid.png">
 
 
   ### Bevinding 2:
