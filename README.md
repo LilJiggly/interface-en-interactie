@@ -79,6 +79,7 @@ Rood
   #### oplossing:
   Ik ben hiervoor toen naar "https://css-tricks.com/snippets/css/a-guide-to-flexbox/" gegaan en heb alles weer even rustig doorgelezen. Daarna ben ik gaan proberen en kwam ik erachter dat ik display: Flex; eindelijk begreep.
   
+  ```css
   .container {
   display; flex;
   justify-content: center;
