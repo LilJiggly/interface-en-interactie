@@ -79,7 +79,7 @@ Rood
   #### oplossing:
   Ik ben hiervoor toen naar "https://css-tricks.com/snippets/css/a-guide-to-flexbox/" gegaan en heb alles weer even rustig doorgelezen. Daarna ben ik gaan proberen en kwam ik erachter dat ik display: Flex; eindelijk begreep.
   
-  ```poep
+  ```css
   .container {
   display; flex;
   justify-content: center;
@@ -87,6 +87,7 @@ Rood
   }
   ```
 
+  De bovestaande code centreert de items in de container. Dit is iets wat heel vaak gebruikt heb.
 
   ### Bevinding 3:
   In het begin twijfelde ik nog welke sprites ik wilde gebruiken. <br>
