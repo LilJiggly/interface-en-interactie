@@ -69,7 +69,7 @@ Rood
   <img src="proces/Tets schets.png" width="45%" alt="test schets 1">
   <img src="proces/Test schets2.png" width="45%" alt="test schets 2">
   <img src="proces/Uitwerk schets.png" width="45%" alt="test schets 2">
-  
+  <br>
   Uiteindelijk heb ik toen de keuze gemaakt voor de laatste schet. Ik heb toen veel geprobeerd met Display:Grid, maar ik kwam er steeds niet helemaal    lekker uit. Uiteindelijk vond ik de volgende website: https://grid.layoutit.com/.
   Hier heb ik mijn layout gemaakt en de html en css gekopieerd.
   
