@@ -31,7 +31,7 @@ Rood
   <img src=""> </summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="proces/Eerste-schets.png" width="50%" alt="eerste versie/schets">
 
 
   ### Je ambitie: 
@@ -60,7 +60,7 @@ Rood
   ### Bevinding 1:
   Zoals ik eerder al zei bij de ambities zou ik graag in een vlakverdeling van 3 willen werken. 
 
-  <img src="proces/Layout schetsen.png">
+  <img src="proces/Layout schetsen.png" width="100%'>
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
