@@ -42,7 +42,7 @@ Rood
   - Javascript
     Het is en blijft altijd lastig, maar het is wel altijd een goed idee om toch weer even te kijken hoe werkt.
   - @keyframes
-    Door veel ervaring met after effects snap ik het principe van keyframes, maar het zal toch wel weer even uitzoeken zijn hoe in css werkt.
+    Door veel ervaring met after effects snap ik het principe van keyframes, maar het zal toch wel weer even uitzoeken zijn hoe het in css werkt.
  
 </details>
 
