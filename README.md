@@ -69,22 +69,23 @@ Rood
   <img src="proces/Test schets2.png" width="50%" alt="test schets 2">
   <img src="proces/Uitwerk schets.png" width="50%" alt="test schets 2">
   
-  Uiteindelijk heb ik toen de keuze gemaakt voor de laatste schet. Ik heb toen veel geprobeerd met Display:Grid, maar ik kwam er steeds niet helemaal lekker uit. Uiteindelijk vond ik de volgende website: https://grid.layoutit.com/.
+  Uiteindelijk heb ik toen de keuze gemaakt voor de laatste schet. Ik heb toen veel geprobeerd met Display:Grid, maar ik kwam er steeds niet helemaal    lekker uit. Uiteindelijk vond ik de volgende website: https://grid.layoutit.com/.
   Hier heb ik mijn layout gemaakt en de html en css gekopieerd.
   
   <img src="proces/Grid.png">
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Toen ik eenmaal het grid gekopieerd had moest er nog veel gebeuren aan uitlijningen en styling.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Ik ben hiervoor toen naar "https://css-tricks.com/snippets/css/a-guide-to-flexbox/" gegaan en heb alles weer even rustig doorgelezen. Daarna ben ik gaan proberen en kwam ik erachter dat ik display: Flex; eindelijk begreep.
 
 
   ### Bevinding 3:
-  ...
+  In het begin twijfelde ik nog welke sprites ik wilde gebruiken
+  <img src="images/gif/133-Eevee.gif">
+  <img src="png/Eevee 133.png">
 
 </details>
 
@@ -98,6 +99,8 @@ Rood
   
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  
+  background: image, image;
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
