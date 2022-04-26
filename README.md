@@ -24,7 +24,7 @@ Rood
 <details open>
   <summary>
   Voor het vak Interface en Interactie heb ik gekozen voor de opdracht over de Pokémon Eevee. <br>
-  Ik heb hiervoor gekozen, omdat Pokémon een game is die vroeger veel gespeeld heb en omdat de Eevee evolutie mij goed bekend is.
+  Ik heb hiervoor gekozen, omdat Pokémon een game is die ik vroeger veel gespeeld heb en omdat de Eevee evolutie mij goed bekend is.
   <img src="images/133-Eevee-3D.gif"> </summary>
 
   ### De eerste versie/schets:
@@ -87,7 +87,7 @@ Rood
   }
   ```
 
-  De bovestaande code centreert de items in de container. Dit is iets wat heel vaak gebruikt heb.
+  De bovestaande code centreert de items in de container. Dit is iets wat ik heel vaak gebruikt heb.
 
   ### Bevinding 3:
   In het begin twijfelde ik nog welke sprites ik wilde gebruiken. <br>
@@ -95,6 +95,12 @@ Rood
   <img src="images/gif/133-Eevee.gif" width="25%"> <br>
   Ik heb er volgens voor gekozen om de rechter sprite te gebruiken, omdat deze een gif bestand is.
   Vervolgens heb ik voor alle Eeveelutions een gif gedownload op de volgende website: https://projectpokemon.org/home/docs/spriteindex_148/3d-models-generation-1-pok%C3%A9mon-r90/.
+  
+  
+  ### Bevinding 4:
+  
+  Toen ik gekozen had om de Eevee sprites te kiezen die ik nu gebruikt hebt was het tijd om deze in Photoshop en Illustrator te bewerken.
+  In Illustrator heb ik alle Eeveelutions op een rijtje gezet om de grote te bepalen van de sprites en van het kader eromheen.
   
 </details>
 
