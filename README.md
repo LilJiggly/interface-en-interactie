@@ -32,7 +32,7 @@ Rood
 
   ### De eerste versie/schets:
   <img src="proces/Eerste-schets.png" width="50%" alt="eerste versie">
-   <img src="proces/Test schets.png" width="50%" alt="test schets 1">
+   <img src="proces/Tets schets.png" width="50%" alt="test schets 1">
   <img src="proces/Test schets2.png" width="50%" alt="test schets 2">
 
 
