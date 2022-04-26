@@ -32,8 +32,6 @@ Rood
 
   ### De eerste versie/schets:
   <img src="proces/Eerste-schets.png" width="50%" alt="eerste versie">
-   <img src="proces/Tets schets.png" width="50%" alt="test schets 1">
-  <img src="proces/Test schets2.png" width="50%" alt="test schets 2">
 
 
   ### Je ambitie: 
@@ -65,10 +63,14 @@ Rood
   <img src="proces/Layout schetsen.png" width="100%">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
 
-  In het begin heb ik veel geprobeer met Grid, maar ik kwam er steeds niet helemaal lekker uit. Uiteindelijk vond ik de volgende website: https://grid.layoutit.com/.
-  Hier heb ik mijn layout aangemaakt en de html en css gekopieerd.
+  In het begin heb ik een aantal schetjes gemaakt in Adobe Xd.
+  <img src="proces/Tets schets.png" width="50%" alt="test schets 1">
+  <img src="proces/Test schets2.png" width="50%" alt="test schets 2">
+  <img src="proces/Uitwerk schets.png" width="50%" alt="test schets 2">
+  
+  Uiteindelijk heb ik toen de keuze gemaakt voor de laatste schet. Ik heb toen veel geprobeerd met Display:Grid, maar ik kwam er steeds niet helemaal lekker uit. Uiteindelijk vond ik de volgende website: https://grid.layoutit.com/.
+  Hier heb ik mijn layout gemaakt en de html en css gekopieerd.
   
   <img src="proces/Grid.png">
 
