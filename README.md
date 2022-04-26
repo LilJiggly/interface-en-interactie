@@ -51,7 +51,7 @@ Rood
 
 ## Voortgang/Feedback 1
 
-<details>
+<details open>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
@@ -93,7 +93,7 @@ Rood
 
 ## Voortgang/Feedback 2
 
-<details>
+<details open>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
@@ -123,7 +123,7 @@ Rood
 
 ## Voortgang/Feedback 3
 
-<details>
+<details open>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
