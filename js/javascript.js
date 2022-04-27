@@ -308,9 +308,9 @@ const names = [
   ]
 
   const cries = [
-      "ttps://liljiggly.github.io../cries/eevee.mp3",
-      "ttps://liljiggly.github.io./cries/vaporeon.mp3",
-      "ttps://liljiggly.github.io/cries/jolteon.mp3",
+      "https://liljiggly.github.io../cries/eevee.mp3",
+      "https://liljiggly.github.io./cries/vaporeon.mp3",
+      "https://liljiggly.github.io/cries/jolteon.mp3",
       "https://liljiggly.github.io/interface-en-interactie/cries/flareon.mp3",
       "../cries/espeon.mp3",
       "../cries/umbreon.mp3",
