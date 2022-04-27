@@ -1,14 +1,3 @@
-# Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-## Jij
-
 ### Ontwerper:
 Sam Lansdaal
 
@@ -125,7 +114,6 @@ Rood
   <img src="/proces/zoom-browser.png" width="50%">
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
   Voor mijn pokemonContainer had ik een <img> element en een background-image nodig. Dit lukte in het begin aardig totdat ik de content erin wilde veranderen. Ik kreeg toen het advies om twee background-images te doen. 
   
   ```css 
@@ -136,21 +124,18 @@ Rood
  ```
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
   Toen ik begreep dat je 2 images kon aangeven werd alles een stuk makkelijker en kon ik doormiddel van Javascript de content wijzigen van de background-image.
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
   Tijdens één van de feedback rondes kwam ik erachter dat ik teksten had die niet in 
-  ```html <p> ```
+  ``` <p> ```
   elementen stonden. Ik was dit eerlijk gezegd compleet vergeten en heb nog een hoop css dingen moeten aanpassen om tekst in 
-  ```html <p> ```
+  ``` <p> ```
   elementen te krijgen. Ook werd er gezegd dat ik mijn :focus states nog moest instellen op de knoppen onderin. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-  Ik heb alle tekst opgezocht in mijn index.html en gekeken of het in een <p> of <h1> element zat. Ik heb het vervolgens veranderd waar het nodig was en heb in de css nog wat selectoren moeten aanpassen om dit te fixen.
+  Ik heb alle tekst opgezocht in mijn index.html en gekeken of het in een ``` <p> ``` of ``` <h1> ``` element zat. Ik heb het vervolgens veranderd waar het nodig was en heb in de css nog wat selectoren moeten aanpassen om dit te fixen.
 
 
   ### Bevinding 3:
@@ -170,11 +155,12 @@ Rood
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik wilde graag nog voor elke eeveelution een shiny Pokémon versie erin stoppen als easter egg. Ik wilde hier een ```classList.toggle``` voor proberen te gebruiken.
+  
+  <img src="proces/shiny-reference" width="70%">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  
 
 
   ### Bevinding 2:
