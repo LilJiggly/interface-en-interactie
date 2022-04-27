@@ -157,7 +157,7 @@ Rood
   ### Bevinding 1:
   Ik wilde graag nog voor elke eeveelution een shiny Pokémon versie erin stoppen als easter egg. Ik wilde hier een ```classList.toggle``` voor proberen te gebruiken.
   
-  <img src="/proces/shiny-reference" width="70%">
+  <img src="/proces/shiny-reference.jpg" width="70%">
 
   #### oplossing:
   
