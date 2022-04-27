@@ -335,7 +335,6 @@ function cry() {
 
 
 
-
 //switch tabs
 var infoTab = document.getElementById("infoButton");
 infoTab.addEventListener("click", switchTabs);
