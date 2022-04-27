@@ -319,18 +319,17 @@ const names = [
       "../cries/sylveon.mp3"
   ]
 
- //Var audio 
- import sound from '../assets/eevee.mp3'
- 
 
-// // test voor geluid
+// test voor geluid
 var cryOut = document.getElementById("cryPlay");
 cryOut.addEventListener("click", cry);
 
 function cry() {
-    const audio = new Audio(sound)
- audio.play()
+    var audio = new Audio(cries[audioFile]);
+    
+// document.getElementById("cryPlay").innerHTML = cries[8]
  console.log("yo")
+ audio.play()
 }
 
 
