@@ -308,7 +308,7 @@ const names = [
   ]
 
   const cries = [
-      "../cries/eevee.mp3",
+      "/cries/eevee.mp3",
       "../cries/vaporeon.mp3",
       "../cries/jolteon.mp3",
       "../cries/flareon.mp3",
