@@ -183,10 +183,6 @@ Rood
   
 </details>
 
-Waarom heb ik voor de pixel images van pkmns gekozen (de sprites van de oude games)
-Gebruik gemaakt van progressive disclosure
-Eevee menu bovenin in verband met de flow
-
 ## Reflectie
 
 <details>
@@ -205,6 +201,10 @@ Eevee menu bovenin in verband met de flow
   Javascript is en blijft toch altijd moeilijk. Ik heb veel code moeten schrijven en lang moeten nadenken waarom iets niet of wel werkte.
   
   Het implementeren van de 3D modellen was lastig en is helaas niet gelukt door gebrek aan tijd.
+  
+  
+  Nog als allerlaatste heb ik hier een bron die mijn onbewust geinspireerd. Blijkbaar had ik dit idee voor layout al die tijd al in me hooft zitten.
+  <img src="/proces/layout-reference.png" width="70%" alt="inspiratie">
 </details>
 
 
