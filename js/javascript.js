@@ -308,15 +308,15 @@ const names = [
   ]
 
   const cries = [
-      "https://liljiggly.github.io../cries/eevee.mp3",
-      "https://liljiggly.github.io./cries/vaporeon.mp3",
-      "https://liljiggly.github.io/cries/jolteon.mp3",
+      "https://liljiggly.github.io/interface-en-interactie/cries/eevee.mp3",
+      "https://liljiggly.github.io/interface-en-interactie/cries/vaporeon.mp3",
+      "https://liljiggly.github.io/interface-en-interactie/cries/jolteon.mp3",
       "https://liljiggly.github.io/interface-en-interactie/cries/flareon.mp3",
-      "../cries/espeon.mp3",
-      "../cries/umbreon.mp3",
-      "../cries/leafeon.mp3",
-      "../cries/glaceon.mp3",
-      "../cries/sylveon.mp3"
+      "https://liljiggly.github.io/interface-en-interactie/cries/espeon.mp3",
+      "https://liljiggly.github.io/interface-en-interactie/cries/umbreon.mp3",
+      "https://liljiggly.github.io/interface-en-interactie/cries/leafeon.mp3",
+      "https://liljiggly.github.io/interface-en-interactie/cries/glaceon.mp3",
+      "https://liljiggly.github.io/interface-en-interactie/cries/sylveon.mp3"
   ]
 
 
