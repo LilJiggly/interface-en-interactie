@@ -4,7 +4,9 @@
 var largeEeveeBG = document.querySelector(".pokemonContainer");
 var naamEeveelution = document.querySelector("InfoContainer section h1");
 
-// All eevee button at the bottom
+
+ 
+// All eevee buttons at the bottom
 var menuEeveesItem1 = document.querySelector(".menuEevees ul li:nth-of-type(1)");
 menuEeveesItem1.addEventListener("click", functieNaamEevee);
 
@@ -32,15 +34,34 @@ menuEeveesItem1.addEventListener("click", functieNaamGlaceon);
 var menuEeveesItem1 = document.querySelector(".menuEevees ul li:nth-of-type(9)");
 menuEeveesItem1.addEventListener("click", functieNaamSylveon);
 
+//Shiny button
+var shiny = document.getElementById("pokemonContainer")
+
+var shinyButton = document.getElementById("shinyButton");
+shinyButton.addEventListener("click", makeShiny);
+
+function makeShiny() {
+shiny.classList.toggle('shinyEevee');
+console.log('yes')
+};
+
 //old code to click the pokeball to start
 // var menuEeveesItem1 = document.querySelector("div.pokemonContainer");
 // menuEeveesItem1.addEventListener("click", functieNaamEevee);
 
+var audioFile = {};
+
+var pokemonNaam = document.getElementById("naam")
+
+
 //All function that change the images inside pokemonContainer
 function functieNaamEevee() {
     largeEeveeBG.dataset.theevee = 'eevee';
+    audioFile = '0';
 
-    document.getElementById("naam").innerHTML = names[0];
+    pokemonNaam.dataset.h1kleur = 'kleurEevee';
+
+    pokemonNaam.innerHTML = names[0];
     document.getElementById("number").innerHTML = "National Number:	#" + number[0]
     document.getElementById("type").innerHTML = "Type: " + types[0]
     document.getElementById("species").innerHTML = "Species: " + species[0] + " pokémon"
@@ -48,11 +69,14 @@ function functieNaamEevee() {
 
     document.getElementById("info").innerHTML = info[0]
     document.getElementById("moreInfo").innerHTML = moreInfo[0]
-    document.getElementById("evolution").innerHTML = evolution[0]    
+    document.getElementById("evolution").innerHTML = evolution[0]
 };
 
 function functieNaamVaporeon() {
     largeEeveeBG.dataset.theevee = 'vaporeon';
+    audioFile = '1';
+
+    pokemonNaam.dataset.h1kleur = 'kleurVaporeon';
 
     document.getElementById("naam").innerHTML = names[1];
     document.getElementById("number").innerHTML = "National Number:	#" + number[1]
@@ -67,6 +91,9 @@ function functieNaamVaporeon() {
 
 function functieNaamJolteon() {
     largeEeveeBG.dataset.theevee = 'jolteon';
+    audioFile = '2';
+
+    pokemonNaam.dataset.h1kleur = 'kleurJolteon';
 
     document.getElementById("naam").innerHTML = names[2];
     document.getElementById("number").innerHTML = "National Number:	#" + number[2]
@@ -81,6 +108,9 @@ function functieNaamJolteon() {
 
 function functieNaamFlareon() {
     largeEeveeBG.dataset.theevee = 'flareon';
+    audioFile = '3';
+
+    pokemonNaam.dataset.h1kleur = 'kleurFlareon';
 
     document.getElementById("naam").innerHTML = names[3];
     document.getElementById("number").innerHTML = "National Number:	#" + number[3]
@@ -95,6 +125,9 @@ function functieNaamFlareon() {
 
 function functieNaamEspeon() {
     largeEeveeBG.dataset.theevee = 'espeon';
+    audioFile = '4';
+
+    pokemonNaam.dataset.h1kleur = 'kleurEspeon';
 
     document.getElementById("naam").innerHTML = names[4];
     document.getElementById("number").innerHTML = "National Number:	#" + number[4]
@@ -109,6 +142,9 @@ function functieNaamEspeon() {
 
 function functieNaamUmbreon() {
     largeEeveeBG.dataset.theevee = 'umbreon';
+    audioFile = '5';
+
+    pokemonNaam.dataset.h1kleur = 'kleurUmbreon';
 
     document.getElementById("naam").innerHTML = names[5];
     document.getElementById("number").innerHTML = "National Number:	#" + number[5]
@@ -123,6 +159,9 @@ function functieNaamUmbreon() {
 
 function functieNaamLeafeon() {
     largeEeveeBG.dataset.theevee = 'leafeon';
+    audioFile = '6';
+
+    pokemonNaam.dataset.h1kleur = 'kleurLeafeon';
 
     document.getElementById("naam").innerHTML = names[6];
     document.getElementById("number").innerHTML = "National Number:	#" + number[6]
@@ -137,6 +176,9 @@ function functieNaamLeafeon() {
 
 function functieNaamGlaceon() {
     largeEeveeBG.dataset.theevee = 'glaceon';
+    audioFile = '7';
+
+    pokemonNaam.dataset.h1kleur = 'kleurGlaceon';
 
     document.getElementById("naam").innerHTML = names[7];
     document.getElementById("number").innerHTML = "National Number:	#" + number[7]
@@ -151,6 +193,9 @@ function functieNaamGlaceon() {
 
 function functieNaamSylveon() {
     largeEeveeBG.dataset.theevee = 'sylveon';
+    audioFile = '8';
+
+    pokemonNaam.dataset.h1kleur = 'kleurSylveon';
     
     document.getElementById("naam").innerHTML = names[8];
     document.getElementById("number").innerHTML = "National Number:	#" + number[8]
@@ -255,55 +300,63 @@ const names = [
       "Vaporeon is one of Eevee's evolutions that is caused by being exposed to a Water Stone.",
       "Jolteon is one of the evolutions of Eevee that is caused by being exposed to a Thunderstone.",
       "Flareon is one of the evolutions of Eevee that is caused by being exposed to a Fire Stone.",
-      "Max-friendship day",
-      "Max-friendship night",
-      "Mossy rock",
-      "Icy rock",
+      "Eevee evolves into Espeon by leveling up with high friendship during the day.",
+      "Umbreon evolves from Eevee if it levels up at night with high friendship.",
+      "Eevee evolves into Leafeon at any given level, when leveled up in Eterna Forest, Pinwheel Forest, Route 20, Petalburg Woods or the Lush Jungle near the moss covered rock. In Pokémon Sword and Shield, Eevee now evolves into Leafeon when a Leaf Stone is used.",
+      "Glaceon is the evolved form of Eevee. Eevee evolves into Glaceon when leveled up on Route 217 near the Ice Rock in Platinum or Pokémon Diamond and Pearl. In Pokémon Black and White, this evolution happens when Eevee levels up near the ice-covered rock in Twist Mountain. In Pokémon X and Y, this happens in Frost Cavern near the ice rock. In Pokémon Omega Ruby and Alpha Sapphire, Eevee evolves when leveled up in Shoal Cave during the low tide, inside the ice chamber. In Pokémon Sun and Moon, you can evolve it near the exit to the cavern near the Ice boulder on Mount Lanakila. In Pokémon Sword and Shield, Eevee evolves into Glaceon when using an Ice Stone.",
       "Eevee evolves into Sylveon when leveled up knowing a Fairy‐type move and gaining at least two Affection hearts in Pokémon‐Amie or Pokémon Refresh. Starting from Generation VIII, it evolves upon level up with high friendship with and a Fairy‐type move."
   ]
 
   const cries = [
-      "/cries/eevee.mp3",
-      "/cries/vaporeon.mp3"
-
+      "../cries/eevee.mp3",
+      "../cries/vaporeon.mp3",
+      "../cries/jolteon.mp3",
+      "../cries/flareon.mp3",
+      "../cries/espeon.mp3",
+      "../cries/umbreon.mp3",
+      "../cries/leafeon.mp3",
+      "../cries/glaceon.mp3",
+      "../cries/sylveon.mp3"
   ]
+
+ //Var audio 
 
 
 // // test voor geluid
-// var cryOut = document.getElementById("cry");
-// cryOut.addEventListener("click", cry);
+var cryOut = document.getElementById("cryPlay");
+cryOut.addEventListener("click", cry);
 
-// function cry() {
+function cry() {
+    var audio = new Audio(cries[audioFile]);
+    
 // document.getElementById("cryPlay").innerHTML = cries[8]
-//  console.log("yo")
-// }
+ console.log("yo")
+ audio.play()
+}
 
 
 
-// //switch tabs
-// var infoTab = document.getElementById("infoButton");
-// infoTab.addEventListener("click", switchTabs);
 
-// var textInTab = document.getElementById("article")
-// var nextTab = document.querySelector("ol.evolution")
-// // var activeInfoTab1 = document.getElementById("infoButton")
 
-// function switchTabs(){
-//     textInTab.classList.toggle('hide')
-//     nextTab.classList.toggle('hidden')
-//     activeInfoTab1.classList.toggle('active')
-// }
-
-var infoTab = document.getElementById("evolutionButton");
+//switch tabs
+var infoTab = document.getElementById("infoButton");
 infoTab.addEventListener("click", switchTabs);
+
+var evoTab = document.getElementById("evolutionButton");
+evoTab.addEventListener("click", switchTabs);
 
 var textInTab = document.getElementById("article")
 var nextTab = document.querySelector("ol.evolution")
 
-var activeTab2 = document.getElementById("infoButton")
-
 function switchTabs(){
     textInTab.classList.toggle('hide')
     nextTab.classList.toggle('hidden')
-    activeTab2.classList.toggle('active')
+    
+    infoTab.classList.toggle('infoActive')
+    evoTab.classList.toggle('evoActive')
 }
+
+
+
+
+

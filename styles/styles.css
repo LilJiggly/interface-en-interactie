@@ -1,37 +1,60 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-size: 1.3em;
+  font-size: 1.0em;
   font-family:Arial, Helvetica, sans-serif;
+  background-color: #1d1d1d;
 }
 :root {
-  --grey: grey;
-  --focus: red;
-  
-  --color-background:#111;
+  --grey: rgb(101, 100, 100);
+  --lightgrey: #EFEFEF;
+  --focus: pink;
+
   --water: #001bdb;
   --water2: #59c2e3;
 	--size-ring:3em;
+
+  /* eevee name colors */
+  --eeveeBrown:   #955a00;
+  --vaporeonBlue: #87ABFF;
+  --jolteonYellow:#FED26C;
+  --flareonRed:   #ff4c4c;
+  --espeonPurple: #F7C7FC;
+  --umbreonBlack: #adadad;
+  --leafeonGreen: #a9c798;
+  --glaceonWhite: #ffffff;
+  --sylveonPink:  #FFAAF2;
 }
 
+.menuEevees button{
+  display: flex;
+  border:none;
+  background: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.menuEevees button:focus{
+  border:var(--focus);
+}
 
 .container {  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1.4fr 0.6fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  height: 100%;
-  width: 100%;
 }
 
-.pokemonContainer { 
-  grid-area: 1 / 4 / 3 / 9;
+/* Pokeball Animation and Keyframes */
+div.pokemonContainer{ 
+  grid-area: 1 / 1 / 3 / 6;
   background-size:50% auto, 400% 400%;
   background-repeat: no-repeat, repeat;
-  background-image: url(/gif/Default.gif), 
+  background-image: url(../gif/Default.gif), 
   linear-gradient(180deg, rgba(227,86,86,1) 50%, rgba(246,246,246,1) 50%);
   width: 100%;
   animation: default 30s infinite linear;
+  height: 85vh;
 }
 
 @keyframes default {
@@ -46,6 +69,8 @@ body, html {
       100%;
   }
 }
+
+
 
 /* Eevee Animation and Keyframes */
 .pokemonContainer[data-theevee="eevee"] {
@@ -64,6 +89,16 @@ body, html {
     repeat;
   width: 100%;
   animation-name: eevee;
+}
+
+.pokemonContainer.shinyEevee {
+  background-image: 
+  url(../images/gif/133-Eevee-Shiny.gif),
+  repeating-conic-gradient(#78420E 0% 25%, #955a00 0% 50%);
+}
+
+h1[data-h1Kleur="kleurEevee"] {
+color:var(--eeveeBrown);
 }
 
 @keyframes eevee {
@@ -101,6 +136,10 @@ body, html {
 	animation: wavesWater 3s linear infinite;
 }
 
+h1[data-h1Kleur="kleurVaporeon"] {
+  color:var(--vaporeonBlue);
+  }
+
 @keyframes wavesWater {
 	0% {
 		background-size: 
@@ -132,6 +171,10 @@ body, html {
     animation: lightning 20s linear infinite;
 }
 
+h1[data-h1Kleur="kleurJolteon"] {
+  color:var(--jolteonYellow);
+  }
+
 @keyframes lightning {
   0% {
 		background-position: 
@@ -160,10 +203,14 @@ background-repeat:
   no-repeat,
   repeat;
 width: 100%;
-height: 100%;
+height: 85vh;
 animation: fire 25s linear infinite;
 content:url(../cries/eevee.mp3);
 }
+
+h1[data-h1Kleur="kleurFlareon"] {
+  color:var(--flareonRed);
+  }
 
 @keyframes fire {
 0% {
@@ -174,7 +221,7 @@ content:url(../cries/eevee.mp3);
 100% {
     background-position: 
     bottom,
-    top;
+    top bottom;
 }
 }
 
@@ -194,6 +241,10 @@ bottom,
 center center;
 animation: wavesPhysic 15s linear infinite;
 }
+
+h1[data-h1Kleur="kleurEspeon"] {
+  color:var(--espeonPurple);
+  }
 
 @keyframes wavesPhysic {
 0% {
@@ -225,6 +276,10 @@ center center;
 animation: wavesDark 15s linear infinite;
 }
 
+h1[data-h1Kleur="kleurUmbreon"] {
+  color:var(--umbreonBlack);
+  }
+
 @keyframes wavesDark {
 0% {
   background-size: 
@@ -253,10 +308,14 @@ animation: wavesDark 15s linear infinite;
     no-repeat,
     repeat;
   width: 100%;
-  animation: fairy 25s linear infinite;
+  animation: leaves 25s linear infinite;
 }
 
-@keyframes fairy {
+h1[data-h1Kleur="kleurLeafeon"] {
+  color:var(--leafeonGreen);
+  }
+
+@keyframes leaves {
   0% {
       background-position: 
       bottom, 
@@ -279,11 +338,15 @@ animation: wavesDark 15s linear infinite;
   0px 0;
   background-size:
   100% auto,
-  50px auto,
+  70px auto,
   100%;
-  background-repeat:0, repeat;
+  /* background-repeat:0, repeat; */
   animation: snow 20s linear infinite;
 }
+
+h1[data-h1Kleur="kleurGlaceon"] {
+  color:var(--glaceonWhite);
+  }
 
 @keyframes snow {
 0% {
@@ -306,7 +369,7 @@ animation: wavesDark 15s linear infinite;
     bottom,
     center;
   background-size:
-    100% auto,
+    90% auto,
     400% 400%;
   background-repeat:
     no-repeat,
@@ -314,6 +377,10 @@ animation: wavesDark 15s linear infinite;
   width: 100%;
   animation: fairy 25s linear infinite;
 }
+
+h1[data-h1Kleur="kleurSylveon"] {
+  color:var(--sylveonPink);
+  }
 
 @keyframes fairy {
   0% {
@@ -337,141 +404,69 @@ animation: wavesDark 15s linear infinite;
 /* Big Eeveelution */
 
 .pokemonImage {
-  transition: 1s;
-  content: url(../gif/Default.gif);
+  background: url(../gif/Default.gif),
+  linear;
+  content: url(../gif/Default.gif),;
   width: 50%;
   box-sizing: content-box;
-width: 50%;
-}
-
-.pokemonContainer img:hover{
-  transform: scale(120%);
-  transition: 1s;
 }
 
 .InfoContainer { 
-  grid-area: 1 / 1 / 2 / 4; 
+  grid-area: 1 / 6 / 2 / 9; 
   background-color: rgb(51 51 51);
-  height: 50%;
   align-items: center;
   justify-content: center;
   display: flex;
-  height: 35vh;
   color:white;
+  overflow: hidden;
+  overflow-y: auto;
+  overscroll-behavior: none;
+  height: 25vh;
 }
 
 .InfoContainer section {
   width: 80%;
   height: 80%;
   position: relative;
-  
 }
 
 .InfoContainer section h1 {
-  color: #FD87EB;
   font-size: 2em;
-  margin: 0 0 0.5em 0;
+  margin: 0 0 0.2em 0;
 }
 
 .InfoContainer section ul {
   margin:0;
   padding: 0;
-  width: 100%;
 }
 
 .InfoContainer section ul li {
   list-style: none;
-  padding-bottom: 0.5em;
-  position: relative;
-  
+  padding-bottom: 0.5em;  
 }
-
-#naam {
-  display: inline-block;
-}
-
-
-p {
-  position: relative;
-  margin: 0;
-  color: white;
-}
-
-
-
-
 
 .menuInfo {  
-  position: relative;
-  display: flex;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "Evolution Abilities Breeding"
-    "deepDive deepDive deepDive"
-    "deepDive deepDive deepDive";
-  grid-area: 2 / 1 / 3 / 4;
-  height: 50vh;
+  grid-area: 2 / 6 / 3 / 9;
+  height: 60vh;
   background-color: var(--grey);
 }
 
-div.deepDive {  
-  /* display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ".";
-  grid-area: deepDive; */
- 
-  width: 100%;
+div.deepDive {   
   height: 100%;
-  position: relative;
-  top:0px;
-
-}
-
-.deepDive.info { 
-  position: relative;
-  left:1em;
-  grid-area: info; }
-
-.deepDive.evolution { 
-  
-  grid-area: evolution; 
-width: 33%;}
-
-.deepDive.notsureyet { 
-  
-  grid-area: notsureyet; }
-
-.deepDive.section.notsureyet {
-  display: flex;
-  flex-direction: column;
-}
-
-.deepDive section {
-  position:relative;
-  width: 100%;
-  display: flex;
 }
 
 .hide {
-  position: relative;
-  display: none;
   visibility: hidden;
-  color:red;
+  overflow-y: auto;
+  overflow: scroll;
+  height: 100%;
 }
 
 .deepDive article {
   position: relative;
-  width: 100%;
-  height: calc(100% - 5em);
-  align-items: center;
+  height: calc(100% - 3em);
   justify-content: center;
   color: white;
-  margin: 0em auto;
   overflow: hidden;
   overflow-y : auto;
   display: flex;
@@ -482,72 +477,74 @@ ol {
   list-style: none;
   padding: 0;
   width: 80%;
+  justify-content: end;
+  
 }
 
-ol li {
+ol li p{
   padding-bottom: 1em;
+  line-height: 1.3em;
+  margin: 0;
+  color: white;
+  display: flex;
+
+} 
+
+ul li p {
+  margin: 0;
 }
 
-
-
-.deepDive button {
-  width: 100%;
-  position: relative;
-  text-decoration: none;
-  border: none;
-  height: 3em;
-  padding: 0em;
-  font-size: 100%;
-  transition: 1s;
-  box-shadow: inset 0 0 0 0 red;
-  display: block;
-  overflow: hidden;
+p#evolution, p#moreInfo {
+  font-size: 1em;
 }
 
+/* inactive evolution hover effect */
 .deepDive button:hover {
   background-color: var(--grey);
   cursor: pointer;
   color:white;
 }
 
-.deepDive button:active {
-  background-color: var(--grey);
-}
-
 .deepDive button:focus {
   border-color: var(--focus);
 }
 
-li #cry {
-  width: 20%;
-  display: inline-block;
-  padding: 0;
+li#cry {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 1em;
 }
 
-#cryPlay {
-  width: 50%;
-  height: 2em;
+#cryPlay, #shinyButton {
+  display: flex;
+  margin-bottom: 0.5em;
+  padding: 0.7em;
+  width: 30%;
+  text-align: center;
+  height: 100%;
   font-size: 1em;
-  position: relative;
-  text-decoration: none;
   border: none;
   transition: 1s;
-  box-shadow: inset 0 0 0 0 red;
-  
+  bottom: 1em;
+  box-shadow: inset 0 0 0 0 lightgray;
+  background-color: var(--lightgrey);
+  margin-right: 1em;
 }
 
-#cryPlay:hover {
-  box-shadow: inset 3em 0 0 0 red;
- cursor: pointer;
+#cryPlay::before {
+  content:🔊;
 }
 
+#cryPlay:hover ,#shinyButton:hover {
+  box-shadow: inset 15em 0 0 0 grey;
+  cursor: pointer;
+  color: white;
+}
 
 .menuEevees { grid-area: 3 / 1 / 4 / 9; 
-  background-color: black;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  width: 100%;
   height: 15vh;
-  display: grid;
   position: relative;
   bottom: 0;
 }
@@ -556,10 +553,6 @@ li #cry {
   display: flex;
   height: 100%;
   justify-content: center;
-  /* display: flex;
-  flex-direction: row;
-  margin: 0;
-  padding: 0; */
   
   margin-block-start: 0em;
   margin-block-end: 0em;
@@ -574,30 +567,16 @@ li #cry {
   align-items: end;
   position: relative;
   color: white;
-  font-size: 1.5em;
-  list-style: none;
-  font-weight: 900;
   width: 11.1111vw;
 }
 
-
-.menuEevees ul li:focus {
-  border-color: red;
-}
-
-
 .menuEevees ul li:hover{
-  background-color: rgb(34, 34, 34);
   cursor: pointer;
 }
 
 .menuEevees ul li img{
   bottom:15%;
-  padding: 0%;
   position: absolute;
-  /* transform: scale(100%);
-  transition: 1s; */
-
 }
 
 .column {
@@ -605,15 +584,7 @@ li #cry {
   width: 33.33%;
 }
 
-/* Clear floats after the columns */
-.deepDive section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .deepDive section{
-  
   background-color: #595959;
   position: relative;
   display: flex;
@@ -625,10 +596,23 @@ div.info {
   display: inline-block;
 }
 
-/* .menuEevees ul li img:hover{
-  transform: scale(110%);
-  cursor: pointer;
-} */
+/******************/
+/* h1 kleuren per pokemon/
+/******************/
+
+h1#naam.kleurEevee {
+  color: #955a00;
+}
+
+h1#naam.kleurVaporeon {
+  color: #87ABFF;
+}
+
+h1 {
+  font-size:1.2em;
+  margin-top:0em;
+}
+
 
 /* Menu onder in met de eeveelutions
   Animaties */
@@ -660,8 +644,6 @@ animation-duration: 1s;
   background-size: 38px 38px;
   animation-duration: 1s;
 }
-
-
 
 
 /* Eeveelution #2 */
@@ -733,10 +715,10 @@ animation-duration: 1s;
   background-size: 28px 28px;
 }
 
-/* Eeveelution #5 */
 
+/* Eeveelution #5 Espeon */
 
-.menuEevees ul li:nth-of-type(5){
+.menuEevees ul li:nth-of-type(5){   
   background-color: #F7C7FC;
   height: 100%;
   transition: 1s;
@@ -754,9 +736,9 @@ animation-duration: 1s;
   background-blend-mode: multiply;
 }
 
-/* Eeveelution #6 Umbreon*/
+/* Eeveelution #6 Umbreon */
 
-.menuEevees ul li:nth-of-type(6){
+.menuEevees ul li:nth-of-type(6){ 
   background-color: #595959;
   height: 100%;
 }
@@ -772,7 +754,7 @@ animation-duration: 1s;
   background-blend-mode: multiply;
 }
 
-/* Eeveelution #7 */
+/* Eeveelution #7 Leafeon */
 
 .menuEevees ul li:nth-of-type(7){
   background-color: #F7E0B5;
@@ -840,8 +822,8 @@ background:repeating-linear-gradient(
 
 
 
-
-.les {
+/* stukje code van de les uitleg
+/* .les {
   outline: none;
   position: relative;
 }
@@ -867,7 +849,7 @@ background:repeating-linear-gradient(
 
 .les:hover {
 text-decoration: none;
-}
+} */
 
 
 
@@ -892,7 +874,46 @@ link {
   font-size: 0.7em;
 }
 
-.active {
-  color: red;
+#evolutionButton {
+  width: 100%;
+  border: none;
+  height: 3em;
+  font-size: 100%;
+  overflow: hidden;
+  transition: 1s;
+}
+
+#infoButton { 
+  width: 100%;
+  border: none;
+  height: 3em;
+  font-size: 100%;
+  transition: 1s;
   background-color: var(--grey);
+  color:white;
+}
+
+button#infoButton.infoActive {
+  color:black;
+  background-color: var(--lightgrey);
+  transition: 1s;
+}
+
+
+button#evolutionButton.evoActive {
+  color:white;
+  background-color: var(--grey);
+}
+
+button#infoButton:hover {
+  color:white;
+  background-color: var(--grey);
+}
+
+iframe {
+  background-color: transparent;
+}
+
+#evolution {
+  font-size:0.7em;
 }
