@@ -160,11 +160,14 @@ Rood
   <img src="/proces/shiny-reference.jpg" width="70%">
 
   #### oplossing:
+  Dit is uiteindelijk gelukt. Ik heb voor het verbergen en tonen van een andere background-image gebruik gemaakt van ``classList.toggle```. Uiteindelijk heb ik het helaas alleen bij Eevee kunnen implementeren wegens gebrek aan tijd.
   
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  De tabjes buttons met "Info" en "Evolution" erin waren ook lastig te coden. Ik wilde namelijk een class toevoegen op het moment dat je 1 van de twee knopjes indrukt. Deze verbergt dan de styling van het andere element en de content onder de buttons waardoor de ilusie ontstaat dat het als een tab systeem werkt.
+  
+  <img src="/proces/tab1.jpg" width="40%"><img src="/proces/tab2.jpg" width="40%">
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
