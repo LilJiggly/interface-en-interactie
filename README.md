@@ -26,8 +26,6 @@ Rood
   Voor het vak Interface en Interactie heb ik gekozen voor de opdracht over de Pokémon Eevee. <br>
   Ik heb hiervoor gekozen, omdat Pokémon een game is die ik vroeger veel gespeeld heb en omdat de Eevee evolutie mij goed bekend is.
   
-    <br>
-  
   <img src="images/intro.png"> </summary>
 
   ### De eerste versie/schets:
