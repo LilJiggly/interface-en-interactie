@@ -25,7 +25,10 @@ Rood
   <summary>
   Voor het vak Interface en Interactie heb ik gekozen voor de opdracht over de Pokémon Eevee. <br>
   Ik heb hiervoor gekozen, omdat Pokémon een game is die ik vroeger veel gespeeld heb en omdat de Eevee evolutie mij goed bekend is.
-  <img src="images/133-Eevee-3D.gif"> </summary>
+  
+    <br>
+  
+  <img src="images/intro.png"> </summary>
 
   ### De eerste versie/schets:
   <img src="proces/Eerste-schets.png" width="50%" alt="eerste versie">
@@ -115,6 +118,10 @@ Rood
 <details open>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
+  De gehele duratie van de opdracht had ik gebruik gemaakt van mijn laptop om mijn opdracht te maken. Ongeveer halverwege de ontwerp opdracht opende ik de website thuis op mijn PC. De 2 websites zagen er niet hetzelfde uit, dus dat was niet goed... Ik ben toen gaan zoeken wat er aan de hand was en het bleek dus dat ik op mijn laptop had gewerkt terwijl de browser grootte op 50% stond. Vervolgens ben ik toen door mijn css heen gegaan om alle ```"font-sizes"``` te zoeken. 
+  
+  <img src="/process/zoom-browser.png" width="50">
+  
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
   
@@ -127,6 +134,7 @@ Rood
 
   ### Bevinding 2:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Tijdens één van de feedback rondes kwam ik erachter dat ik teksten had die niet in <p> elementen stonden. Ik was dit eerlijk gezegd compleet vergeten en heb nog een hoop css dingen moeten aanpassen om tekst in <p> elementen te krijgen. Ook werd er gezegd dat ik mijn :focus states nog moest instellen op de knoppen onderin. 
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
@@ -134,7 +142,11 @@ Rood
 
 
   ### Bevinding 3:
-  ...
+  Tijdens het testen van mijn website heb ik een oud klasgenoot gevraagd om te komen kijken. Het viel al gauw op dat hij op de knop linksboven in klikte. Ik was hier al bang voor in verband met een matige visuele hiërarchie. Ik heb toen wat aanpassingen in het grid gedaan en kwam vervolgens op de volgende indeling.
+  
+  <img src="<img width="1856" alt="Alternatieve layout" src="https://user-images.githubusercontent.com/58260324/165358663-fa8e7e29-635e-4107-a3c1-84b8c3c9ccc8.png">
+<img width="1486" alt="zoom-browser" src="https://user-images.githubusercontent.com/58260324/165358698-035246c0-ded6-4971-ae23-3ee15511010c.png">
+
 
 </details>
 
