@@ -167,7 +167,7 @@ Rood
   ### Bevinding 2:
   De tabjes buttons met "Info" en "Evolution" erin waren ook lastig te coden. Ik wilde namelijk een class toevoegen op het moment dat je 1 van de twee knopjes indrukt.
   
-  <img src="/proces/Tab1.png" width="40%"><img src="/proces/Tab2.png" width="40%">
+  <img src="/proces/Tab1.png" width="40%"> <img src="/proces/Tab2.png" width="40%">
 
   #### oplossing:
  Het indrukken van 1 van de 2 button tabs verbergt de styling van het andere element en de content onder de buttons waardoor het als een tab systeem werkt.
