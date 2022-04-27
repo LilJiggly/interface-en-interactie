@@ -103,8 +103,12 @@ Rood
   Toen ik gekozen had om de Eevee sprites te kiezen die ik nu gebruikt hebt was het tijd om deze in Photoshop en Illustrator te bewerken.
   In Illustrator heb ik alle Eeveelutions op een rijtje gezet om de grote te bepalen van de sprites en van het kader eromheen.
   
-  <img src="References/height-chart.png" width="25%">
-  <img src="References/sprites-row.png" width="25%">
+  <img src="References/height-chart.png" width="75%">
+  <img src="References/sprites-row.png" width="75%">
+  
+  Vervolgens heb ik alle .gif ingeladen in photoshop met op de achtergrond een reference image om ervoor te zorgen dat alle Eevees op de zelfde hoogte staan.
+  
+  
   
 </details>
 
@@ -116,18 +120,23 @@ Rood
 <details open>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
-  De gehele duratie van de opdracht had ik gebruik gemaakt van mijn laptop om mijn opdracht te maken. Ongeveer halverwege de ontwerp opdracht opende ik de website thuis op mijn PC. De 2 websites zagen er niet hetzelfde uit, dus dat was niet goed... Ik ben toen gaan zoeken wat er aan de hand was en het bleek dus dat ik op mijn laptop had gewerkt terwijl de browser grootte op 50% stond. Vervolgens ben ik toen door mijn css heen gegaan om alle ```"font-sizes"``` te zoeken. 
+  De gehele duratie van de opdracht had ik gebruik gemaakt van mijn laptop om mijn opdracht te maken. Ongeveer halverwege de ontwerp opdracht opende ik de website thuis op mijn PC. De 2 websites zagen er niet hetzelfde uit, dus dat was niet goed... Ik ben toen gaan zoeken wat er aan de hand was en het bleek dus dat ik op mijn laptop had gewerkt terwijl de browser grootte op 50% stond. Vervolgens ben ik toen door mijn css heen gegaan om alle ```"font-sizes"``` te zoeken en deze te vergroten.
   
   <img src="/process/zoom-browser.png" width="50">
   
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Voor mijn pokemonContainer had ik een <img> element en een background-image nodig. Dit lukte in het begin aardig totdat ik de content erin wilde veranderen. Ik kreeg toen het advies om twee background-images te doen. 
   
-  background: image, image;
+  ```css background-image {
+      url("image1"),
+      url("image2")
+  }
+ ```
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Toen ik begreep dat je 2 images kon aangeven werd alles een stuk makkelijker en kon ik doormiddel van Javascript de content wijzigen van de background-image.
 
 
   ### Bevinding 2:
@@ -136,7 +145,7 @@ Rood
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Ik heb alle tekst opgezocht in mijn index.html en gekeken of het in een <p> of <h1> element zat. Ik heb het vervolgens veranderd waar het nodig was en heb in de css nog wat selectoren moeten aanpassen om dit te fixen.
 
 
   ### Bevinding 3:
@@ -214,7 +223,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. Info over de Pokémons https://bulbapedia.bulbagarden.net/wiki/ & https://pokemondb.net/pokedex/ en https://pokemon.fandom.com/wiki/Eevee#Generation_VIII
 2. Types image https://twitter.com/RicoPicoProject/status/1261695478120321024/photo/1
-3. 
+3. Eevee intro image https://wall.alphacoders.com/big.php?i=716564
 4. Achtergrond patronen https://www.magicpattern.design/tools/css-backgrounds
 5. Startcode voor het grid https://grid.layoutit.com/
 6. 3D Pokémon sprites https://projectpokemon.org/home/docs/spriteindex_148/3d-models-generation-1-pok%C3%A9mon-r90/
