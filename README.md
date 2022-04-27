@@ -128,7 +128,8 @@ Rood
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
   Voor mijn pokemonContainer had ik een <img> element en een background-image nodig. Dit lukte in het begin aardig totdat ik de content erin wilde veranderen. Ik kreeg toen het advies om twee background-images te doen. 
   
-  ```css background-image {
+  ```css 
+  background-image {
       url("image1"),
       url("image2")
   }
@@ -151,7 +152,7 @@ Rood
   ### Bevinding 3:
   Tijdens het testen van mijn website heb ik een oud klasgenoot gevraagd om te komen kijken. Het viel al gauw op dat hij op de knop linksboven in klikte. Ik was hier al bang voor in verband met een matige visuele hiërarchie. Ik heb toen wat aanpassingen in het grid gedaan en kwam vervolgens op de volgende indeling.
   
-  <img src="<img width="1856" alt="Alternatieve layout" src="https://user-images.githubusercontent.com/58260324/165358663-fa8e7e29-635e-4107-a3c1-84b8c3c9ccc8.png">
+<img width="1856" alt="Alternatieve layout" src="https://user-images.githubusercontent.com/58260324/165358663-fa8e7e29-635e-4107-a3c1-84b8c3c9ccc8.png">
 <img width="1486" alt="zoom-browser" src="https://user-images.githubusercontent.com/58260324/165358698-035246c0-ded6-4971-ae23-3ee15511010c.png">
 
 
