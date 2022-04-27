@@ -193,7 +193,7 @@ Eevee menu bovenin in verband met de flow
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="karakter.png" width="70%" alt="final ontwerp">
+  <img src="/proces/karakter.png" width="70%" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
