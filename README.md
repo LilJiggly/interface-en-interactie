@@ -42,7 +42,7 @@ Rood
 ## Voortgang/Feedback 1
 
 <details open>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen</summary>
 
   ### Bevinding 1:
   Zoals ik eerder al zei bij de ambities zou ik graag in een vlakverdeling van 3 willen werken. 
@@ -107,7 +107,7 @@ Rood
 ## Voortgang/Feedback 2
 
 <details open>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen </summary>
   
   De gehele duratie van de opdracht had ik gebruik gemaakt van mijn laptop om mijn opdracht te maken. Ongeveer halverwege de ontwerp opdracht opende ik de website thuis op mijn PC. De 2 websites zagen er niet hetzelfde uit, dus dat was niet goed... Ik ben toen gaan zoeken wat er aan de hand was en het bleek dus dat ik op mijn laptop had gewerkt terwijl de browser grootte op 50% stond. Vervolgens ben ik toen door mijn css heen gegaan om alle ```"font-sizes"``` te zoeken en deze te vergroten.
   
@@ -152,7 +152,7 @@ Rood
 ## Voortgang/Feedback 3
 
 <details open>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen </summary>
   
   ### Bevinding 1:
   Ik wilde graag nog voor elke eeveelution een shiny Pokémon versie erin stoppen als easter egg. Ik wilde hier een ```classList.toggle``` voor proberen te gebruiken.
@@ -165,18 +165,22 @@ Rood
 
 
   ### Bevinding 2:
-  De tabjes buttons met "Info" en "Evolution" erin waren ook lastig te coden. Ik wilde namelijk een class toevoegen op het moment dat je 1 van de twee knopjes indrukt. Deze verbergt dan de styling van het andere element en de content onder de buttons waardoor de ilusie ontstaat dat het als een tab systeem werkt.
+  De tabjes buttons met "Info" en "Evolution" erin waren ook lastig te coden. Ik wilde namelijk een class toevoegen op het moment dat je 1 van de twee knopjes indrukt.
   
   <img src="/proces/tab1.jpg" width="40%"><img src="/proces/tab2.jpg" width="40%">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+ Het indrukken van 1 van de 2 button tabs verbergt de styling van het andere element en de content onder de buttons waardoor het als een tab systeem werkt.
 
 
   ### Bevinding 3:
-  ...
-
+  Ik probeerde aan het einde van het project ook nog een 3D model in te laden in de Pokémon container, maar jammer genoeg werkte dit niet heel goed. Het 3D object kwam wel op de site maar ik zou dan me volledige Javascript en css code moeten aanpassen. Helaas was hier dus geen tijd voor. 
+  
+  Ik heb voor het 3D model gebruik gemaakt van Spline. Zeker een aanrader om even naar te kijken. https://spline.design/
+  
+  <img src="/proces/3d-model.png" width="70%">
+  
+  
 </details>
 
 Waarom heb ik voor de pixel images van pkmns gekozen (de sprites van de oude games)
@@ -189,19 +193,18 @@ Eevee menu bovenin in verband met de flow
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="karakter.png" width="70%" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  Ik heb ontzettend veel over css en Javascript geleerd. Voornamelijk hoe je objecten op bepaalde plekken zetten met css en hoe je het een beetje schaalbaar maakt. Ook heb ik heel veel geleerd over ```display: grid;``` en ```display: flex;```.
+  
+  Ik vond het ook nog ontzettend leuk om andere uit de klas te helpen met hun code. Ook hier heb ik een hoop van geleerd.
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Javascript is en blijft toch altijd moeilijk. Ik heb veel code moeten schrijven en lang moeten nadenken waarom iets niet of wel werkte.
+  
+  Het implementeren van de 3D modellen was lastig en is helaas niet gelukt door gebrek aan tijd.
 </details>
 
 
@@ -231,6 +234,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 14. Achtergrond patronen https://www.magicpattern.design/tools/css-backgrounds
 15. Cirkel animatie https://codepen.io/shooft/pen/MWOjqJM
 16. Favicon generator en Eevee image https://www.favicon-generator.org/ & https://iconscout.com/icon/eevee-eievui-pokemon-cartoon-game-video-pokemongo 
+17. Shiny eeveelutions https://cdn.vox-cdn.com/thumbor/uu6yNa5um_6fR-gyxk9U4urA4xE=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22781004/eevee_evolution_shiny_vaporeon_jolteon_flareon_espeon_umbreon_leafeon_glaceon_sylveon_pogo.jpg
 
 
 
