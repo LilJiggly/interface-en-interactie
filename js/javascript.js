@@ -308,7 +308,7 @@ const names = [
   ]
 
   const cries = [
-      "/cries/eevee.mp3",
+      "../cries/eevee.mp3",
       "../cries/vaporeon.mp3",
       "../cries/jolteon.mp3",
       "../cries/flareon.mp3",
@@ -320,18 +320,17 @@ const names = [
   ]
 
  //Var audio 
-
+ import sound from '../assets/eevee.mp3'
+ 
 
 // // test voor geluid
 var cryOut = document.getElementById("cryPlay");
 cryOut.addEventListener("click", cry);
 
 function cry() {
-    var audio = new Audio(cries[audioFile]);
-    
-// document.getElementById("cryPlay").innerHTML = cries[8]
- console.log("yo")
+    const audio = new Audio(sound)
  audio.play()
+ console.log("yo")
 }
 
 
