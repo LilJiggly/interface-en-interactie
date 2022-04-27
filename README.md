@@ -122,7 +122,7 @@ Rood
   
   De gehele duratie van de opdracht had ik gebruik gemaakt van mijn laptop om mijn opdracht te maken. Ongeveer halverwege de ontwerp opdracht opende ik de website thuis op mijn PC. De 2 websites zagen er niet hetzelfde uit, dus dat was niet goed... Ik ben toen gaan zoeken wat er aan de hand was en het bleek dus dat ik op mijn laptop had gewerkt terwijl de browser grootte op 50% stond. Vervolgens ben ik toen door mijn css heen gegaan om alle ```"font-sizes"``` te zoeken en deze te vergroten.
   
-  <img src="/process/zoom-browser.png" width="50">
+  <img src="/proces/zoom-browser.png" width="50%">
   
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
@@ -142,7 +142,11 @@ Rood
 
   ### Bevinding 2:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
-  Tijdens één van de feedback rondes kwam ik erachter dat ik teksten had die niet in <p> elementen stonden. Ik was dit eerlijk gezegd compleet vergeten en heb nog een hoop css dingen moeten aanpassen om tekst in <p> elementen te krijgen. Ook werd er gezegd dat ik mijn :focus states nog moest instellen op de knoppen onderin. 
+  Tijdens één van de feedback rondes kwam ik erachter dat ik teksten had die niet in 
+  ```html <p> ```
+  elementen stonden. Ik was dit eerlijk gezegd compleet vergeten en heb nog een hoop css dingen moeten aanpassen om tekst in 
+  ```html <p> ```
+  elementen te krijgen. Ook werd er gezegd dat ik mijn :focus states nog moest instellen op de knoppen onderin. 
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
