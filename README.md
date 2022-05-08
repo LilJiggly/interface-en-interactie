@@ -1,16 +1,3 @@
-# Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
-
-
-## Jij
 
 ### Ontwerper:
 Sam Lansdaal
@@ -27,11 +14,12 @@ Rood
 <details open>
   <summary>
   Voor het vak Interface en Interactie heb ik gekozen voor de opdracht over de Pokémon Eevee. <br>
-  Ik heb hiervoor gekozen, omdat Pokémon een game is die vroeger veel gespeeld heb en omdat de Eevee evolutie mij goed bekend is.
-  <img src=""> </summary>
+  Ik heb hiervoor gekozen, omdat Pokémon een game is die ik vroeger veel gespeeld heb en omdat de Eevee evolutie mij goed bekend is.
+  
+  <img src="images/intro.png"> </summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="proces/Eerste-schets.png" width="50%" alt="eerste versie">
 
 
   ### Je ambitie: 
@@ -45,7 +33,7 @@ Rood
   - Javascript
     Het is en blijft altijd lastig, maar het is wel altijd een goed idee om toch weer even te kijken hoe werkt.
   - @keyframes
-    Door veel ervaring met after effects snap ik het principe van keyframes, maar het zal toch wel weer even uitzoeken zijn hoe in css werkt.
+    Door veel ervaring met after effects snap ik het principe van keyframes, maar het zal toch wel weer even uitzoeken zijn hoe het in css werkt.
  
 </details>
 
@@ -54,34 +42,64 @@ Rood
 
 ## Voortgang/Feedback 1
 
-<details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+<details open>
+  <summary>Mijn bevindingen + wijzigingen</summary>
 
   ### Bevinding 1:
   Zoals ik eerder al zei bij de ambities zou ik graag in een vlakverdeling van 3 willen werken. 
 
-  <img src="proces/Layout schetsen.png">
+  <img src="proces/Layout schetsen.png" width="100%">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
 
-  In het begin heb ik veel geprobeer met Grid, maar ik kwam er steeds niet helemaal lekker uit. Uiteindelijk vond ik de volgende website: https://grid.layoutit.com/.
-  Hier heb ik mijn layout aangemaakt en de html en css gekopieerd.
+  In het begin heb ik een aantal schetjes gemaakt in Adobe Xd. <br>
+  
+  <img src="proces/Tets schets.png" width="45%" alt="test schets 1">
+  <img src="proces/Test schets2.png" width="45%" alt="test schets 2">
+  <img src="proces/Uitwerk schets.png" width="45%" alt="test schets 2">
+  <br>
+  Uiteindelijk heb ik toen de keuze gemaakt voor de laatste schet. Ik heb toen veel geprobeerd met Display:Grid, maar ik kwam er steeds niet helemaal    lekker uit. Uiteindelijk vond ik de volgende website: https://grid.layoutit.com/.
+  Hier heb ik mijn layout gemaakt en de html en css gekopieerd.
+  
+  <img src="proces/Grid.png">
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Toen ik eenmaal het grid gekopieerd had moest er nog veel gebeuren aan uitlijningen en styling.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik ben hiervoor toen naar "https://css-tricks.com/snippets/css/a-guide-to-flexbox/" gegaan en heb alles weer even rustig doorgelezen. Daarna ben ik gaan proberen en kwam ik erachter dat ik display: Flex; eindelijk begreep.
+  
+  ```css
+  .container {
+  display; flex;
+  justify-content: center;
+  align-items: items:
+  }
+  ```
 
-
+  De bovestaande code centreert de items in de container. Dit is iets wat ik heel vaak gebruikt heb.
 
   ### Bevinding 3:
-  Ik had ook lang de twijfel over het feit of de geluiden van de eeveelutions wel klopte. De meeste klonken namelijk erg gedateerd. Maar uit deze video blijkt dat de sound effects kloppen. Deze geluiden komen uit Pokemon Sword & Shield voor de Switch. Je hoort hier duidelijk dat Flereon nog steeds hetzelfde geluid maakt.
-
-  https://www.youtube.com/watch?v=9oUcjL0JE18&ab_channel=axelbenedict
-
+  In het begin twijfelde ik nog welke sprites ik wilde gebruiken. <br>
+  <img src="PNG/Eevee 133.png" width="25%">
+  <img src="images/gif/133-Eevee.gif" width="25%"> <br>
+  Ik heb er volgens voor gekozen om de rechter sprite te gebruiken, omdat deze een gif bestand is.
+  Vervolgens heb ik voor alle Eeveelutions een gif gedownload op de volgende website: https://projectpokemon.org/home/docs/spriteindex_148/3d-models-generation-1-pok%C3%A9mon-r90/.
+  
+  
+  ### Bevinding 4:
+  
+  Toen ik gekozen had om de Eevee sprites te kiezen die ik nu gebruikt hebt was het tijd om deze in Photoshop en Illustrator te bewerken.
+  In Illustrator heb ik alle Eeveelutions op een rijtje gezet om de grote te bepalen van de sprites en van het kader eromheen.
+  
+  <img src="References/height-chart.png" width="75%">
+  <img src="References/sprites-row.png" width="75%">
+  
+  Vervolgens heb ik alle .gif ingeladen in photoshop met op de achtergrond een reference image om ervoor te zorgen dat alle Eevees op de zelfde hoogte staan.
+  
+  
+  
 </details>
 
 
@@ -89,27 +107,44 @@ Rood
 
 ## Voortgang/Feedback 2
 
-<details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+<details open>
+  <summary>Mijn bevindingen + wijzigingen </summary>
+  
+  De gehele duratie van de opdracht had ik gebruik gemaakt van mijn laptop om mijn opdracht te maken. Ongeveer halverwege de ontwerp opdracht opende ik de website thuis op mijn PC. De 2 websites zagen er niet hetzelfde uit, dus dat was niet goed... Ik ben toen gaan zoeken wat er aan de hand was en het bleek dus dat ik op mijn laptop had gewerkt terwijl de browser grootte op 50% stond. Vervolgens ben ik toen door mijn css heen gegaan om alle ```"font-sizes"``` te zoeken en deze te vergroten.
+  
+  <img src="/proces/zoom-browser.png" width="50%">
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Voor mijn pokemonContainer had ik een <img> element en een background-image nodig. Dit lukte in het begin aardig totdat ik de content erin wilde veranderen. Ik kreeg toen het advies om twee background-images te doen. 
+  
+  ```css 
+  background-image {
+      url("image1"),
+      url("image2")
+  }
+ ```
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Toen ik begreep dat je 2 images kon aangeven werd alles een stuk makkelijker en kon ik doormiddel van Javascript de content wijzigen van de background-image.
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Tijdens één van de feedback rondes kwam ik erachter dat ik teksten had die niet in 
+  ``` <p> ```
+  elementen stonden. Ik was dit eerlijk gezegd compleet vergeten en heb nog een hoop css dingen moeten aanpassen om tekst in 
+  ``` <p> ```
+  elementen te krijgen. Ook werd er gezegd dat ik mijn :focus states nog moest instellen op de knoppen onderin. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Ik heb alle tekst opgezocht in mijn index.html en gekeken of het in een ``` <p> ``` of ``` <h1> ``` element zat. Ik heb het vervolgens veranderd waar het nodig was en heb in de css nog wat selectoren moeten aanpassen om dit te fixen.
 
 
   ### Bevinding 3:
-  ...
+  Tijdens het testen van mijn website heb ik een oud klasgenoot gevraagd om te komen kijken. Het viel al gauw op dat hij op de knop linksboven in klikte. Ik was hier al bang voor in verband met een matige visuele hiërarchie. Ik heb toen wat aanpassingen in het grid gedaan en kwam vervolgens op de volgende indeling.
+  
+<img width="1856" alt="Alternatieve layout" src="https://user-images.githubusercontent.com/58260324/165358663-fa8e7e29-635e-4107-a3c1-84b8c3c9ccc8.png">
+<img width="1486" alt="zoom-browser" src="https://user-images.githubusercontent.com/58260324/165358698-035246c0-ded6-4971-ae23-3ee15511010c.png">
+
 
 </details>
 
@@ -117,33 +152,37 @@ Rood
 
 ## Voortgang/Feedback 3
 
-<details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+<details open>
+  <summary>Mijn bevindingen + wijzigingen </summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik wilde graag nog voor elke eeveelution een shiny Pokémon versie erin stoppen als easter egg. Ik wilde hier een ```classList.toggle``` voor proberen te gebruiken.
+  
+  <img src="/proces/shiny-reference.jpg" width="70%">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Dit is uiteindelijk gelukt. Ik heb voor het verbergen en tonen van een andere background-image gebruik gemaakt van ``classList.toggle```. Uiteindelijk heb ik het helaas alleen bij Eevee kunnen implementeren wegens gebrek aan tijd.
+  
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  De tabjes buttons met "Info" en "Evolution" erin waren ook lastig te coden. Ik wilde namelijk een class toevoegen op het moment dat je 1 van de twee knopjes indrukt.
+  
+  <img src="/proces/Tab1.png" width="40%"> <img src="/proces/Tab2.png" width="40%">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+ Het indrukken van 1 van de 2 button tabs verbergt de styling van het andere element en de content onder de buttons waardoor het als een tab systeem werkt.
 
 
   ### Bevinding 3:
-  ...
-
+  Ik probeerde aan het einde van het project ook nog een 3D model in te laden in de Pokémon container, maar jammer genoeg werkte dit niet heel goed. Het 3D object kwam wel op de site maar ik zou dan me volledige Javascript en css code moeten aanpassen. Helaas was hier dus geen tijd voor. 
+  
+  Ik heb voor het 3D model gebruik gemaakt van Spline. Zeker een aanrader om even naar te kijken. https://spline.design/
+  
+  <img src="/proces/3d-model.png" width="70%">
+  
+  
 </details>
-
-Waarom heb ik voor de pixel images van pkmns gekozen (de sprites van de oude games)
-Gebruik gemaakt van progressive disclosure
-Eevee menu bovenin in verband met de flow
 
 ## Reflectie
 
@@ -151,19 +190,22 @@ Eevee menu bovenin in verband met de flow
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="/proces/karakter.png" width="70%" alt="final ontwerp">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  Ik heb ontzettend veel over css en Javascript geleerd. Voornamelijk hoe je objecten op bepaalde plekken zetten met css en hoe je het een beetje schaalbaar maakt. Ook heb ik heel veel geleerd over ```display: grid;``` en ```display: flex;```.
+  
+  Ik vond het ook nog ontzettend leuk om andere uit de klas te helpen met hun code. Ook hier heb ik een hoop van geleerd.
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Javascript is en blijft toch altijd moeilijk. Ik heb veel code moeten schrijven en lang moeten nadenken waarom iets niet of wel werkte.
+  
+  Het implementeren van de 3D modellen was lastig en is helaas niet gelukt door gebrek aan tijd.
+  
+  
+  Nog als allerlaatste heb ik hier een bron die mijn onbewust geinspireerd. Blijkbaar had ik dit idee voor layout al die tijd al in me hooft zitten.
+  <img src="/proces/layout-reference.png" width="70%" alt="inspiratie">
 </details>
 
 
@@ -179,7 +221,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. Info over de Pokémons https://bulbapedia.bulbagarden.net/wiki/ & https://pokemondb.net/pokedex/ en https://pokemon.fandom.com/wiki/Eevee#Generation_VIII
 2. Types image https://twitter.com/RicoPicoProject/status/1261695478120321024/photo/1
-3. 
+3. Eevee intro image https://wall.alphacoders.com/big.php?i=716564
 4. Achtergrond patronen https://www.magicpattern.design/tools/css-backgrounds
 5. Startcode voor het grid https://grid.layoutit.com/
 6. 3D Pokémon sprites https://projectpokemon.org/home/docs/spriteindex_148/3d-models-generation-1-pok%C3%A9mon-r90/
@@ -193,6 +235,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 14. Achtergrond patronen https://www.magicpattern.design/tools/css-backgrounds
 15. Cirkel animatie https://codepen.io/shooft/pen/MWOjqJM
 16. Favicon generator en Eevee image https://www.favicon-generator.org/ & https://iconscout.com/icon/eevee-eievui-pokemon-cartoon-game-video-pokemongo 
+17. Shiny eeveelutions https://cdn.vox-cdn.com/thumbor/uu6yNa5um_6fR-gyxk9U4urA4xE=/1400x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22781004/eevee_evolution_shiny_vaporeon_jolteon_flareon_espeon_umbreon_leafeon_glaceon_sylveon_pogo.jpg
 
 
 
